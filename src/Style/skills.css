@@ -1,0 +1,38 @@
+.skills {
+  padding:5% 15%;
+  color: rgb(87, 90, 94);
+  background-color: #FAFAFA;
+  height: 90vh;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.skills-font {
+  font-size: 3.5em;
+  font-weight: bolder;
+  color: rgb(74, 160, 240);
+
+}
+
+.skills-name {
+  padding: 2% 2%;
+  /* border: 1px solid;
+  border-radius: 5%; */
+}
+
+.skills-name p {
+  line-height: 10px;
+}
+
+.skills-name p:first-child {
+  color: rgb(74, 160, 240);
+  line-height: 30px;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}

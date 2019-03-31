@@ -1,0 +1,22 @@
+.background {
+  background-color: #FAFAFA;
+}
+
+.about {
+  margin: 0 auto;
+  padding: 100px 24px;
+  max-width: 720px;
+  color: rgb(87, 90, 94);
+
+  height: 100vh;
+}
+
+.about h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: rgb(74, 160, 240);
+}
+
+.about a {
+  text-decoration: none;
+}

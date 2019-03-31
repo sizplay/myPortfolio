@@ -1,0 +1,54 @@
+.footer {
+  width: 100%;
+  height: 1%;
+  background-color: black;
+  color: rgb(158, 158, 158);
+  padding: 1.5% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.icons a {
+  color: rgb(158, 158, 158);
+  font-size: 23px;
+}
+
+.icons a:hover {
+  color: rgb(74, 160, 240);
+}
+
+.chevron-up {
+  cursor: pointer;
+  cursor: hand;
+  animation: pulse 1.5s infinite;
+}
+
+.chevron-up:hover {
+  animation: pulseHover 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: rgb(85, 84, 84);
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes pulseHover {
+  0% {
+    color: rgb(74, 160, 240);
+  }
+  100% {
+    color: white;
+  }
+}

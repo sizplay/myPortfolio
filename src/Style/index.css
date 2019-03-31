@@ -1,0 +1,18 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  /* font-family: 'Heebo', sans-serif; */
+  font-family: 'Maven Pro', sans-serif;
+}
+
+hr {
+  align-self: center;
+  width: 80px;
+  background-color: rgb(87, 90, 94);
+}
+
+ul {
+  list-style-type: none;
+}
